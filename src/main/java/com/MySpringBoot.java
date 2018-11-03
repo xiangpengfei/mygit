@@ -34,6 +34,11 @@ public class MySpringBoot extends SpringBootServletInitializer {
 		return p;
 	}
 	
+	@RequestMapping(value="/welcome")
+	public String  welcome() {
+		return "welcome";
+	}
+	
 	
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {

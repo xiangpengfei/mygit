@@ -7,3 +7,8 @@ person:
  gender:  male
  color: [yellow,white,black]
  info: {张三: 18, 李四: 19, 王五: 20}
+spring: 
+ mvc:
+  view.prefix: /static/view/
+  view.suffix: .jsp
+   
