@@ -37,6 +37,8 @@ public class MySpringBoot extends SpringBootServletInitializer {
 	@RequestMapping(value="/welcome")
 	public String  welcome() {
 		System.out.println("不知道什么意思");
+		System.out.println("不知道什么意思");
+		System.out.println("不知道什么意思");
 		return "welcome";
 	}
 	
