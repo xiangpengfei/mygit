@@ -1,0 +1,9 @@
+server:
+ servlet-path: "*.action"
+ port: 8020
+person:
+ userName: 张三
+ hiredate: 2017/12/12
+ gender:  male
+ color: [yellow,white,black]
+ info: {张三: 18, 李四: 19, 王五: 20}
